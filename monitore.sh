@@ -1,5 +1,4 @@
 #!/bin/bash
-echo 'execute o peograma apenas digitando "monitore"'
 echo "Telegram: @Foxxer_SA"
 echo "Se inscreve la @AcervoHackerBR!!!"
 echo "GitHub: foxx3r"
@@ -15,5 +14,5 @@ echo "=============================="
 sleep 2
 vmstat -S M
 echo "=============================="
-cp -r ./monitor.sh /bin
-mv /bin/monitor.sh /bin/monitore
+cp -r ./monitor.sh /usr/bin/monitore
+echo 'execute o programa apenas digitando "monitore"!!!'
