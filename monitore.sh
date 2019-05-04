@@ -1,5 +1,11 @@
 #!/bin/bash
 
+echo ' mmmmmm
+ #       mmm   m   m  mmmmm   mmm   m mm
+ #mmmmm #" "#   #m#   # # #  #" "#  #"  #
+ #      #   #   m#m   # # #  #   #  #   #
+ #      "#m#"  m" "m  # # #  "#m#"  #   # '
+
 cp -r ./monitore.sh /usr/bin/monitore
 echo 'execute o programa apenas digitando "monitore"!!!' 
 sleep 1
