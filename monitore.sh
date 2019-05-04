@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cp -r ./monitor.sh /usr/bin/monitore
+cp -r ./monitore.sh /usr/bin/monitore
 echo 'execute o programa apenas digitando "monitore"!!!' 
 sleep 1
 
@@ -9,8 +9,10 @@ echo "Se inscreve la @AcervoHackerBR!!!"
 echo "GitHub: foxx3r"
 
 sleep 1
+echo "=============================="
 echo "instalando pacotes adicionais..."
 sudo apt-get install dstat > /dev/null 
+echo "=============================="
 sleep 1
 
 echo "=============================="
