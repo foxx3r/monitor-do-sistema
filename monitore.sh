@@ -11,8 +11,7 @@ echo "GitHub: foxx3r"
 sleep 1
 echo "=============================="
 echo "instalando pacotes adicionais..."
-sudo apt-get install dstat > /dev/null 
-echo "=============================="
+sudo apt-get install dstat -y > /dev/null 
 sleep 1
 
 echo "=============================="
