@@ -29,6 +29,7 @@ vmstat -S M
 echo "=============================="
 echo "Obtendo relatorios gerais..."
 echo "Pressione CTRL+C para parar"
+echo "=============================="
 sleep 1
 dstat
 
