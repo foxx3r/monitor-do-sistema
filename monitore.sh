@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export LANG=C.UTF-8
+
 echo ' mmmmmm
  #       mmm   m   m  mmmmm   mmm   m mm
  #mmmmm #" "#   #m#   # # #  #" "#  #"  #
@@ -27,13 +29,13 @@ sleep 2
 free -m
 
 echo "=============================="
-echo "Obtemdo relatorios..."
+echo "Obtendo relatórios..."
 echo "=============================="
 sleep 2
 vmstat -S M
 
 echo "=============================="
-echo "Obtendo relatorios gerais..."
+echo "Obtendo relatórios gerais..."
 echo "Pressione CTRL+C para parar"
 echo "=============================="
 sleep 1
